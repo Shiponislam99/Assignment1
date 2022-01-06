@@ -1,0 +1,52 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-size: 50px;
+}
+.blue-color{
+    color: aquamarine;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 70%;
+}
+#mission-1st{
+    background-color:indianred;
+    border-radius: 35px;
+    padding: 20px 20px;
+}
+#mission-2nd{
+    background-color: lightgreen;
+    border-radius: 35px;
+    margin: 20px;
+    padding: 20px 20px;
+}
+#mission-3nd{
+    background-color: lightseagreen;
+    border-radius: 35px;
+    padding: 20px 20px;
+    margin-left: 20px;
+}
+.no-decoration{
+    text-decoration: none;
+    background-color: deepskyblue;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.border-color{
+    border-radius:15px; 
+    border-image: 30px 30px 30px 30px;
+} 
+footer{
+    text-align: center;
+    
+    background-color:gray;
+}
