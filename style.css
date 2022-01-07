@@ -4,10 +4,17 @@ body{
 h1{
     font-size: 50px;
 }
+.button{
+    border-left: 5px solid green;
+    margin-left: 5px;
+}
+.size{
+    margin-left: 5px;
+}
 .blue-color{
     color: aquamarine;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -18,22 +25,48 @@ section{
 .half-width img{
     width: 70%;
 }
-#mission-1st{
-    background-color:indianred;
-    border-radius: 35px;
-    padding: 20px 20px;
+.container{
+    display: flex;
 }
-#mission-2nd{
-    background-color: lightgreen;
-    border-radius: 35px;
-    margin: 20px;
-    padding: 20px 20px;
+.text-on{
+    text-align: center;
 }
-#mission-3nd{
-    background-color: lightseagreen;
-    border-radius: 35px;
-    padding: 20px 20px;
-    margin-left: 20px;
+.text-out{
+    
+    color: turquoise;
+}
+.fast-mission{
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 5%;
+    background-color:darkseagreen;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+.fast-mission img{
+    width: 35%;
+}
+.fast-vision{
+    border-radius: 10px;
+    width: 30%;
+    background-color: slategrey;
+    margin-left: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+.fast-vision img{
+    width: 35%;
+}
+.fast-goals{
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 5%;
+    background-color: darkturquoise; 
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+.fast-goals img{
+    width: 35%;
 }
 .no-decoration{
     text-decoration: none;
@@ -46,7 +79,21 @@ section{
     border-image: 30px 30px 30px 30px;
 } 
 footer{
+    color: snow;
     text-align: center;
-    
-    background-color:gray;
+    background-color:black;
+}
+.red-color{
+    color: red;
+}
+.corona-covid{
+    width: 80%;
+    padding-left: 10%;
+}
+.corona-covid img{
+    width: 100%;
+}
+.corona-covid{
+    display: flex;
+    margin-bottom: 100px; 
 }
